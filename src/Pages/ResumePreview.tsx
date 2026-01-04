@@ -37,7 +37,7 @@ const ResumePreview: React.FC = () => {
                <button className="px-4 py-1 font-medium text-white bg-black hover:text-gray-900 hover:bg-black/10 rounded-lg cursor-pointer transition-transform delay-300">Download</button>
             </div>
         </div> */}
-        <div className="w-full h-[90%] bg-[#F6F6F6] overflow-y-auto">
+        <div className="w-full h-[90%] bg-[#F6F6F6] overflow-y-auto hide-scrollbar">
         <iframe 
         src={Resume}
         width="100%" 
