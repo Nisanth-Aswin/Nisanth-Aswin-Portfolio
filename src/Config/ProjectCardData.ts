@@ -1,3 +1,5 @@
+import { CarCommerceImg } from "../Assets/IconIndex";
+
 interface TechstacksType {
     name:string;
     textColor:string;
@@ -106,9 +108,9 @@ export const ProjectCardData : ProjectCardType[] = [
     projectId : 1,
     projectName: "CarCommerce",
     projectDescription:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, corporis rem ab maiores odit sapiente explicabo harum vel dicta quam. Harum, nemo? Earum, laborum repudiandae?",
+      "CarCommerce is a online automotive marketplace where the people can able to buy new cars, old cars as well as car spare parts.",
     projectCoverImage:
-      "https://images.pexels.com/photos/633409/pexels-photo-633409.jpeg",
+      CarCommerceImg,
     projectLink: "https://superb-dango-8cb8d5.netlify.app/",
     techstacksUsed : [
         TECH_STACKS.HTML,
@@ -123,7 +125,7 @@ export const ProjectCardData : ProjectCardType[] = [
     projectDescription:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, corporis rem ab maiores odit sapiente explicabo harum vel dicta quam. Harum, nemo? Earum, laborum repudiandae?",
     projectCoverImage:
-      "https://images.pexels.com/photos/633409/pexels-photo-633409.jpeg",
+      CarCommerceImg,
     projectLink: "https://superb-dango-8cb8d5.netlify.app/",
     techstacksUsed : [
        TECH_STACKS.React,
